@@ -34,12 +34,27 @@ cloud AI strictly opt-in.
 
 ---
 
-## Open source
+## Public code
 
-| Project | What it is | Language |
-|---|---|---|
-| **[skysim](https://github.com/ID-Robots/skysim)** | Headless multi-vehicle drone simulator for ArduPilot SITL. Hundreds of UAVs in one shared [Jolt Physics](https://github.com/jrouwe/JoltPhysics) world with real mid-air collisions — a lightweight alternative to Gazebo. | C++ |
-| **[clawbox](https://github.com/ID-Robots/clawbox)** | OpenClaw OS — the operating system that ships on every ClawBox. Setup wizard, desktop environment, and an OS the AI agent can operate through MCP tools. | TypeScript |
+| Project | What it is | Language | License |
+|---|---|---|---|
+| **[skysim](https://github.com/ID-Robots/skysim)** | Headless multi-vehicle drone simulator for ArduPilot SITL. Hundreds of UAVs in one shared [Jolt Physics](https://github.com/jrouwe/JoltPhysics) world with real mid-air collisions — a lightweight alternative to Gazebo. | C++ | GPL-3.0-or-later |
+| **[clawbox](https://github.com/ID-Robots/clawbox)** | OpenClaw OS — the operating system that ships on every ClawBox. Setup wizard, desktop environment, and an OS the AI agent can operate through MCP tools. | TypeScript | Source-available: free for personal use, commercial use needs a license |
+
+**SkyHub licensing.** The SkyHub platform is proprietary. SkyHub Core, the part that runs on
+the vehicle, is source-available: free for personal and educational use, and companies need
+a commercial license. Contact [yanko@idrobots.com](mailto:yanko@idrobots.com).
+
+---
+
+## Partners
+
+| Partner | What we do together |
+|---|---|
+| **[Nomadium Robotics](https://nomadiumrobotics.com)** 🇧🇬 | Maker of the TerraHawk unmanned aircraft systems. Nomadium integrates SkyHub Core into its airframes and offers SkyHub subscriptions with them. |
+
+Want to integrate SkyHub into your vehicles or resell it? Write to
+[yanko@idrobots.com](mailto:yanko@idrobots.com).
 
 ---
 
